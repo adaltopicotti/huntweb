@@ -10,7 +10,7 @@ app.use(cors())
 
 // Iniciando o DB
 mongoose.connect(
-    'mongodb://localhost:27017/nodeapi', 
+    'mongodb+srv://deploy:uploaddeploy@cluster0-9go7g.mongodb.net/test?retryWrites=true&w=majority', 
     { useNewUrlParser: true }
 )
 requireDir('./src/models')
